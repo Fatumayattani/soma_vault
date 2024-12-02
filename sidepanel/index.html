@@ -1,15 +1,18 @@
-<!doctype html>
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
+    <h1>Somavault - AI-Powered Educational Content Generator</h1>
+    <p>Welcome to Somavault! Use this tool to generate tailored educational content using AI. Enter a prompt to get started.</p>
+
     <textarea
       id="input-prompt"
-      placeholder='Type something, e.g. "Write a haiku about Chrome Extensions"'
+      placeholder='Type your educational prompt, e.g. "Generate a quiz for 5th grade math"'
       cols="30"
       rows="5"
     ></textarea>
+    
     <div>
       <input
         type="range"
@@ -19,19 +22,21 @@
         max="2"
         step="0.01"
       />
-      <label for="temperature"
-        >Temperature: <span id="label-temperature"></span
-      ></label>
+      <label for="temperature">Temperature: <span id="label-temperature"></span></label>
     </div>
+
     <div>
       <input type="range" id="top-k" name="top-k" min="1" max="8" step="1" />
       <label for="top-k">Top-k: <span id="label-top-k"></span></label>
     </div>
-    <button id="button-prompt" class="primary" disabled>Run</button>
+
+    <button id="button-prompt" class="primary" disabled>Generate Content</button>
     <button id="button-reset" class="secondary" disabled>Reset</button>
+
     <div id="response" class="text" hidden></div>
-    <div id="loading" class="text" hidden><span class="blink">...</span></div>
+    <div id="loading" class="text" hidden><span class="blink">Generating...</span></div>
     <div id="error" class="text" hidden></div>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
