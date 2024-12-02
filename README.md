@@ -29,3 +29,5 @@ https://developer.chrome.com/docs/extensions/ai/prompt-api
 
 1. **User Input**: 
    - Teachers, students, or educators input their educational requirements (e.g., grade level, topic, specific curriculum).
+2. **AI-Powered Content Generation**: 
+   - The **Prompt API** processes the input and generates tailored educational content, such as lesson summaries, quizzes, and study aids.   
