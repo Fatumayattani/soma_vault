@@ -24,3 +24,8 @@ https://developer.chrome.com/docs/extensions/ai/prompt-api
 - **Localized Content**: Content is generated in local languages and contexts, ensuring cultural relevance and better engagement.
 - **Instant Content Generation**: Users can easily generate educational content based on their input, such as curriculum topics or specific questions.
 - **Multi-Language Support**: The extension supports multiple languages, making it accessible to a wider audience.
+
+## How It Works
+
+1. **User Input**: 
+   - Teachers, students, or educators input their educational requirements (e.g., grade level, topic, specific curriculum).
