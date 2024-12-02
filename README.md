@@ -32,4 +32,6 @@ https://developer.chrome.com/docs/extensions/ai/prompt-api
 2. **AI-Powered Content Generation**: 
    - The **Prompt API** processes the input and generates tailored educational content, such as lesson summaries, quizzes, and study aids.
 3. **Accessing Content**: 
-   - The generated content is then displayed directly within the extension's interface for easy viewing and use.       
+   - The generated content is then displayed directly within the extension's interface for easy viewing and use.
+4. **Localization**: 
+   - The AI ensures that the content is localized according to the language, culture, and educational needs of the user.   
