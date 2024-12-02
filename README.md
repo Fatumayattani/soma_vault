@@ -35,3 +35,5 @@ https://developer.chrome.com/docs/extensions/ai/prompt-api
    - The generated content is then displayed directly within the extension's interface for easy viewing and use.
 4. **Localization**: 
    - The AI ensures that the content is localized according to the language, culture, and educational needs of the user.   
+5. **Real-Time Updates**: 
+   - As users provide feedback or modify their inputs, the AI refines and updates the content to better suit their needs.   
