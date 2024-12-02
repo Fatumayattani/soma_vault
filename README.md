@@ -1,0 +1,1 @@
+# Somavault: AI-Powered Educational Content Generator Chrome Extension
