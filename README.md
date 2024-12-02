@@ -5,3 +5,7 @@ This platform will help bridge the gap in educational resource availability by p
 ## Problem Statement
 
 In many parts of Africa and other underdeveloped regions, there is a lack of access to quality education and teaching resources. Traditional education systems face challenges such as limited availability of textbooks, teachers, and learning materials. This situation hampers the potential for self-learning and effective teaching, especially in rural or resource-poor areas.
+
+## Solution
+
+The **Somavault** addresses this challenge by developing a platform that uses AI to generate educational content tailored to specific educational needs. The platform will produce various types of content, such as lessons, quizzes, study aids, and other educational resources, all customized to the curriculum or topics needed by students and teachers in local contexts.
