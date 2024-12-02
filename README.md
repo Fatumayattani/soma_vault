@@ -60,3 +60,11 @@ https://developer.chrome.com/docs/extensions/ai/prompt-api
 - **Prompt API**: For generating AI-powered educational content based on user inputs.
 - **Chrome Extensions**: For seamless integration and easy access to the educational content generator.
 - **HTML, CSS, JavaScript**: Used to build the frontend of the extension, making it user-friendly and accessible.
+
+---
+## Future Plans
+
+- **Expand Language Support**: Increase the number of languages supported to serve a broader demographic.
+- **Enhanced Content Formats**: Add additional interactive content types, such as videos and audio-based learning materials.
+- **Offline Functionality**: Allow users to access generated content even without an internet connection.
+- **User Feedback Loop**: Incorporate user feedback to continuously improve the accuracy and relevance of generated content.
