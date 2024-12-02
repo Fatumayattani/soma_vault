@@ -2,7 +2,7 @@
   "name": "Somavault",
   "version": "0.2",
   "manifest_version": 3,
-  "description": "Try Chrome's built-in prompt API.",
+  "description": "An AI-powered Chrome extension that generates customized educational content using the Prompt API, tailored to local needs and contexts.",
   "background": {
     "service_worker": "background.js"
   },
