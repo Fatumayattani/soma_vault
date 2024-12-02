@@ -1,8 +1,8 @@
 {
-  "name": "Somavault",
+  "name": "somavault",
   "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "A Chrome extension that generates customized educational content using AI",
   "main": "background.js",
   "scripts": {
     "build": "rollup -c rollup.config.mjs"
