@@ -9,3 +9,8 @@
 ## Problem Statement
 
 In many developing regions, there is a lack of access to quality education and teaching resources. Students and teachers often face challenges such as inadequate textbooks, insufficient learning materials, and a lack of interactive or culturally relevant content. This gap hinders the ability to provide quality education, particularly in remote or low-resource areas.
+
+---
+## Solution
+
+**Somavault** provides a solution by offering AI-powered content generation directly within the browser. By leveraging the **Prompt API**, the extension enables users to generate educational resources on-demand, based on the topic, grade level, and specific needs of their educational context.
