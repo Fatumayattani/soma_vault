@@ -53,3 +53,10 @@ https://developer.chrome.com/docs/extensions/ai/prompt-api
 - **Enhanced Learning**: Tailored, culturally relevant content enhances student engagement and comprehension.
 - **Support for Teachers**: Helps teachers by offering ready-made lesson plans and study materials.
 - **Improved Education Delivery**: Promotes effective teaching and learning through easy-to-access content.
+
+---
+## Technologies Used
+
+- **Prompt API**: For generating AI-powered educational content based on user inputs.
+- **Chrome Extensions**: For seamless integration and easy access to the educational content generator.
+- **HTML, CSS, JavaScript**: Used to build the frontend of the extension, making it user-friendly and accessible.
