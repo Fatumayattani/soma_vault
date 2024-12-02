@@ -1,2 +1,3 @@
 # Somavault
 Somavault is designed to tackle the challenge of limited access to quality educational resources, particularly in underdeveloped regions, with a specific focus on Africa. The project aims to provide a platform that leverages artificial intelligence (AI) to generate tailored educational content, ensuring that students and teachers in low-resource areas have access to learning materials that meet their specific needs.
+This platform will help bridge the gap in educational resource availability by providing localized, relevant, and easily accessible content for various subjects, grade levels, and languages.
