@@ -15,3 +15,12 @@ In many developing regions, there is a lack of access to quality education and t
 
 **Somavault** provides a solution by offering AI-powered content generation directly within the browser. By leveraging the **Prompt API**, the extension enables users to generate educational resources on-demand, based on the topic, grade level, and specific needs of their educational context.
 https://developer.chrome.com/docs/extensions/ai/prompt-api
+
+---
+
+## Key features include:
+
+- **Content Customization**: Generate lesson plans, quizzes, study aids, and more tailored to specific educational requirements.
+- **Localized Content**: Content is generated in local languages and contexts, ensuring cultural relevance and better engagement.
+- **Instant Content Generation**: Users can easily generate educational content based on their input, such as curriculum topics or specific questions.
+- **Multi-Language Support**: The extension supports multiple languages, making it accessible to a wider audience.
