@@ -51,8 +51,6 @@ async function initDefaults() {
     return;
   }
   sliderTemperature.value = defaults.defaultTemperature;
-  // Pending https://issues.chromium.org/issues/367771112.
-  // sliderTemperature.max = defaults.maxTemperature;
   if (defaults.defaultTopK > 3) {
     // limit default topK to 3
     sliderTopK.value = 3;
@@ -98,7 +96,7 @@ buttonPrompt.addEventListener('click', async () => {
   showLoading();
   try {
     const params = {
-      systemPrompt: 'You are a helpful and friendly assistant.',
+      systemPrompt: 'You are an AI assistant for educational content generation.',
       temperature: sliderTemperature.value,
       topK: sliderTopK.value
     };
@@ -117,22 +115,22 @@ function showLoading() {
 }
 
 function showResponse(response) {
+  const sanitizedResponse = DOMPurify.sanitize(response);
+  elementResponse.innerHTML = marked(sanitizedResponse);
   hide(elementLoading);
   show(elementResponse);
-  elementResponse.innerHTML = DOMPurify.sanitize(marked.parse(response));
 }
 
 function showError(error) {
-  show(elementError);
-  hide(elementResponse);
+  elementError.textContent = `Error: ${error.message}`;
   hide(elementLoading);
-  elementError.textContent = error;
+  show(elementError);
 }
 
 function show(element) {
-  element.removeAttribute('hidden');
+  element.hidden = false;
 }
 
 function hide(element) {
-  element.setAttribute('hidden', '');
+  element.hidden = true;
 }
